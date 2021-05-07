@@ -1,0 +1,25 @@
+.serv-head {
+  color: #ff7424;
+  letter-spacing: 4px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.serv-price {
+  font-size: 1.5rem;
+  color: #ff7424;
+
+}
+
+.serv-line {
+  font-size: 3.2rem;
+}
+
+.serv-text {
+  padding-top: 2rem;
+}
+
+.comp {
+  color: #ff7424;
+
+}

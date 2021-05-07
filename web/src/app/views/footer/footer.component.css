@@ -1,0 +1,27 @@
+hr {
+  z-index: 9;
+  width: 80vw;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* .social-link {
+  padding: 20px 15px 40px 0px;
+} */
+
+.copy-text {
+  padding: 0px 0px 40px 0px;
+  text-align: end;
+}
+
+a {
+  color: white;
+}
+
+.footer-links {
+  padding-left: 20px;
+}
+
+.footer-links-icon {
+  padding-left: 20px;
+  font-size: 20px;
+}
