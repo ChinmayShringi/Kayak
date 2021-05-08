@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Merienda&display=swap');
+
+.cost {
+  font-family: 'Arvo', serif;
+}
+
+/* * {
+  background-color: #dfe0f2;
+} */
+.cordinate {
+  font-size: 1.2rem;
+  font-family: 'Merienda', cursive;
+}
+
+.loc-head {
+  border-left: 4px #5254a8 solid;
+  padding-left: 10px;
+  font-size: 3.5rem;
+  color: #1f2024;
+  font-family: 'Oswald', sans-serif;
+}
+
+.loc-sub {
+  font-size: 1.5rem;
+  color: #4c5962;
+}
+
+.btn-add {
+  background-color: #5a62b3;
+  color: white;
+  text-transform: uppercase;
+}
+
+.fav-trip {
+  background-color: #5756b3;
+  color: white;
+}
+
+.history-tag h1 {
+  font-size: 1.2rem;
+}
+
+.his-cost {
+  font-size: 1.2rem;
+
+}
+
+.history-tag p {
+  font-size: 1rem;
+}
+
+.fav-trip .fa {
+  color: #5756b3;
+  padding: 4px;
+  background-color: #a1a0ec;
+  height: 60px;
+  width: 60px;
+  font-size: 2rem;
+}
+
+.fav-trip-cost {
+  font-size: 1.5rem;
+}
+
+.fav-trip-cost-sub {
+  font-size: 1rem;
+  color: #c0c0c0;
+}
+
+.btn-add .fa {
+  color: #5a62b3;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.btn-direct {
+  /* border: 2px #5a62b3 solid; */
+  color: #5a62b3;
+  text-transform: uppercase;
+}
+
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  width: 100%;
+}
+
+.trip-cost {
+  font-size: 2rem;
+}
+
+
+.card {
+  border: none;
+
+}
+
+
+
+
+
+
+
+
+.progress {
+  width: 150px;
+  height: 150px;
+  background: none;
+  position: relative;
+}
+
+.progress::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 6px solid #eee;
+  position: absolute;
+}

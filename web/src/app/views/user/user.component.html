@@ -1,1 +1,129 @@
-<p>user works!</p>
+<body class="" style="background-color: #f6f7fb">
+  <header class="mb-auto" style="z-index: 2">
+    <navbar></navbar>
+  </header>
+  <div class="row ms-5" style="z-index: -1">
+    <div class="col-md-5 p-0">
+      <div class="" style="height: 100vh; width: 100%; margin-top: 10vh">
+        <h4 class="loc-head pt-2">Hello Tam</h4>
+        <h4 class="loc-sub mt-3">Have fun Kayaking!</h4>
+        <div class="row">
+          <div class="col-md-12 mt-5">
+            <button type="button" class="btn btn-add px-2">
+              <i class="p-2 fa fa-user"></i>Plans
+            </button>
+            <button type="button" class="btn btn-direct px-2 mx-2">
+              past trips
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5 p-0" style="margin-top: 11vh">
+      <div class="row pt-3">
+        <div class="row loc-cont pt-3">
+          <h4 class="text-muted cordinate">Your Trips</h4>
+          <div class="card shadow-sm w-10">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="progress mx-auto" data-value="80">
+                    <span class="progress-left">
+                      <span class="progress-bar border-primary"></span>
+                    </span>
+                    <span class="progress-right">
+                      <span class="progress-bar border-primary"></span>
+                    </span>
+                    <div
+                      class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                    >
+                      <div class="h2 font-weight-bold">
+                        <i class="fa fa-ship"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5 trip-cost pt-4 cost">
+                  <sup class="small">$</sup>98.00
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-3">
+        <div class="col-md-6" style="text-align: start">
+          <div class="row loc-cont pt-3">
+            <h4 class="text-muted cordinate">Your Favorite Trip</h4>
+            <div class="card shadow-sm" style="width: 40rem">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-3 mx-auto my-auto">
+                    <i class="fa fa-suitcase rounded-circle p-3"></i>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="row fav-trip-cost cost">$98.00</div>
+                    <div class="row fav-trip-cost-sub">February</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6" style="text-align: start">
+          <div class="row loc-cont px-4 pt-3">
+            <h4 class="text-muted cordinate">Your Favorite Trip</h4>
+            <div class="card shadow-sm fav-trip" style="width: 40rem">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-3 mx-auto my-auto">
+                    <i class="fa fa-suitcase rounded-circle p-3"></i>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="row fav-trip-cost cost">$98.00</div>
+                    <div class="row fav-trip-cost-sub">February</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row loc-cont pt-3">
+        <h4 class="text-muted cordinate">Past Trips</h4>
+        <div class="card shadow-sm w-10">
+          <div class="card-body">
+            <div class="row">
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search"
+                  aria-label="Search"
+                  aria-describedby="button-addon2"
+                />
+                <button
+                  class="btn btn-outline-secondary"
+                  type="button"
+                  id="button-addon2"
+                >
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </div>
+            <div class="row" *ngFor="let item of fa">
+              <div class="col-md-2 trip-cost pt-4">
+                <i class="fa fa-user"></i>
+              </div>
+              <div class="col-md-7 trip-cost pt-4 history-tag">
+                <h1>Ahemdabad</h1>
+                <p class="text-muted">21 February</p>
+              </div>
+              <div class="col-md-2 pt-4 his-cost cost">$17.4</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
