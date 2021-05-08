@@ -8,6 +8,10 @@ import { NavbarComponent } from './views/navbar/navbar.component';
 import { ServiceComponent } from './views/home/service/service.component';
 import { SwiperModule } from 'swiper/angular';
 import { FooterComponent } from './views/footer/footer.component';
+import { ContactComponent } from './views/contact/contact.component';
+import { BookComponent } from './views/book/book.component';
+import { UserComponent } from './views/user/user.component';
+import { UserLoginComponent } from './views/user-login/user-login.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,6 +19,10 @@ import { FooterComponent } from './views/footer/footer.component';
     NavbarComponent,
     ServiceComponent,
     FooterComponent,
+    ContactComponent,
+    BookComponent,
+    UserComponent,
+    UserLoginComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, SwiperModule],
   providers: [],

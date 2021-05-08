@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.cover-container {
+  background: url(https://images.unsplash.com/photo-1604357209793-fca5dca89f97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80) no-repeat 50% 100%;
+  background-size: cover
+}
+
+.loc-head {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  color: #4c5962;
+  font-family: 'Oswald', sans-serif;
+}
+
+.known-for {
+  background-color: #f7f7ed;
+  text-transform: uppercase;
+  color: #80898d;
+  text-align: left;
+}
+
+.loc-sub {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #4c5962;
+}
+
+.btn-add {
+  background-color: #729c1c;
+  color: white;
+  text-transform: uppercase;
+}
+
+.btn-add .fa {
+  color: #729c1c;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.btn-direct {
+  color: #729c1c;
+  text-transform: uppercase;
+}
+
+.cordinate {
+  font-size: 1rem;
+}
+
+.cover-top {
+  background: url(https://images.unsplash.com/photo-1467358895199-cd5d1847a7e4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80) no-repeat 100% 100%;
+  background-size: cover;
+  height: 50vh;
+  width: 50vw;
+
+}
+
+.cont-img {
+  background: url(https://images.unsplash.com/photo-1448518184296-a22facb4446f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80) no-repeat 100% 100%;
+  background-size: cover;
+  height: 30vh;
+
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  width: 100%;
+  /* border-bottom: 2px rgb(151, 151, 151) solid; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+textarea {
+  width: 100%
+}
+
+.cont .info {
+  border-top: 3px solid #127c93;
+  border-bottom: 3px solid #127c93;
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, .1)
+}
+
+.cont .info i {
+  font-size: 20px;
+  color: #19a9c9;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #e7f5fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all .3s ease-in-out
+}
+
+.cont .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #37517e
+}
+
+.cont .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #6182ba
+}
+
+.cont .info .email p {
+  padding-top: 5px
+}
+
+.cont .info .address:hover i,
+.cont .info .email:hover i,
+.cont .info .phone:hover i {
+  background: #127c93;
+  color: #fff
+}
+
+.cont .eform {
+  width: 100%;
+  border-top: 3px solid #127c93;
+  border-bottom: 3px solid #127c93;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, .12)
+}
+
+.cont .eform .form-group {
+  padding-bottom: 8px
+}
+
+.cont .eform .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600
+}
+
+.cont .eform .sent-message {
+  display: none;
+  color: #fff;
+  background: #127c93;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600
+}
+
+.cont .eform .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px
+}
+
+.cont .eform .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #127c93;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite
+}
+
+.cont .eform .form-group {
+  margin-bottom: 20px
+}
+
+.cont .eform label {
+  padding-bottom: 8px
+}
+
+.cont .eform input,
+.cont .eform textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 4px
+}
+
+.cont .eform input:focus,
+.cont .eform textarea:focus {
+  border-color: #127c93
+}
+
+.cont .eform input {
+  height: 44px
+}
+
+.cont .eform textarea {
+  padding: 10px 12px
+}
+
+.cont .eform button[type=submit] {
+  background: #127c93;
+  border: 0;
+  padding: 12px 34px;
+  color: #fff;
+  transition: .4s;
+  border-radius: 50px
+}
+
+.cont .eform button[type=submit]:hover {
+  background: #19a9c9
+}
+
+h6,
+p {
+  color: #44475b
+}
+
+.text {
+  color: #000;
+  font-size: 46px
+}
+
+.div {
+  font-family: karlabold, sans-serif
+}

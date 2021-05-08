@@ -1,0 +1,124 @@
+<body class="d-flex h-100 text-center">
+  <header class="mb-auto">
+    <navbar></navbar>
+  </header>
+  <div
+    class="cover-container d-flex w-100 p-3 mx-auto flex-column"
+    style="height: 100vh"
+  >
+    <header class="mb-5"></header>
+    <main class="px-3 my-auto" style="text-align: left">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5"></div>
+          <div class="col-md-7">
+            <div class="card glass">
+              <div class="card-body">
+                <div class="card-title text-center">When are you coming?</div>
+                <form>
+                  <div class="form-group">
+                    <label
+                      class="text-label text-muted px-1"
+                      for="exampleInputEmail1"
+                      >Desination</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control text"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="Ahemdabad"
+                    />
+                  </div>
+                  <fieldset class="form-group">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="gridRadios"
+                            id="gridRadios1"
+                            value="option1"
+                            checked
+                          />
+                          <label class="form-check-label" for="gridRadios1">
+                            Departure
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="gridRadios"
+                            id="gridRadios2"
+                            value="option2"
+                          />
+                          <label class="form-check-label" for="gridRadios2">
+                            Return
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </fieldset>
+                  <div class="form-group">
+                    <label
+                      class="text-label text-muted px-1"
+                      for="exampleInputEmail1"
+                      >Departure Date</label
+                    >
+                    <div class="input-group date" data-provide="datepicker">
+                      <input
+                        type="text"
+                        class="form-control text"
+                        placeholder="21 May 2022"
+                      />
+                      <!-- <div class="input-group-addon">
+                        <span class="fa fa-calendar"></span>
+                      </div> -->
+                    </div>
+                  </div>
+                  <div class="row form-group">
+                    <div class="col">
+                      <label
+                        class="text-label text-muted px-1"
+                        for="exampleInputEmail1"
+                        >Departure Time</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control text"
+                        placeholder="10AM-5PM"
+                      />
+                    </div>
+                    <div class="col">
+                      <label
+                        class="text-label text-muted px-1"
+                        for="exampleInputEmail1"
+                        >Occupant</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control text"
+                        placeholder="2 People"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    type="submit"
+                    style="background-color: #874448"
+                    class="btn mt-3 w-100 text-light"
+                  >
+                    Search Ticket
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>

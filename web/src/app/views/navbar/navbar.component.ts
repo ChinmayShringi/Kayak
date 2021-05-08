@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 declare var $: any;
 @Component({
   selector: 'navbar',
@@ -7,7 +7,14 @@ declare var $: any;
 })
 export class NavbarComponent implements OnInit {
   constructor() {}
-
+  @HostListener('window:scroll', ['$event'])
+  doSomething(event) {
+    if (window.pageYOffset > 175) {
+      document.querySelector('nav.sblack').classList.add('black');
+    } else {
+      document.querySelector('nav.sblack').classList.remove('black');
+    }
+  }
   ngOnInit(): void {
     // $(document).ready(function () {
     //   $('.menu-icon').on('click', function () {
