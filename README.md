@@ -1,4 +1,22 @@
-# Web
+# Kayak Angular Template
+## ScreenShots
+
+## Home
+Kayak Book from home UI <a href="https://dribbble.com/shots/14858234-Travel-Web-UI-Exploration">Inpiration</a>
+![Alt text](ss/hom.png "Home")
+
+## Location 
+Kayak Book from home UI <a href="https://dribbble.com/shots/11063330-Location-Preview">Inpiration</a>
+![Alt text](ss/hom.png "Home")
+
+
+## Book
+Booking Tab For Kayak
+![Alt text](ss/bok.png "Home")
+
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
 
@@ -14,13 +32,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
